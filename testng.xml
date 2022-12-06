@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<parameter name="URL" value="www.google.com"/>
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="Test.demo1"/>
+      <class name="Test.demo2">	
+      	<methods>
+      		<include name="dm2"/>
+      	</methods>
+      </class>
+    </classes>
+  </test>
+  <test name="Loan">
+  <parameter name="URLname" value="www.amazon.com"/>
+  	<classes>
+  		<class name="Test.demo3" />
+  	</classes>
+  </test>
+   <test name="Channels">
+  	<classes>
+  	<!--Exluding Colors Kannada Channel -->
+  		<class name="Test.demo4">
+  			<methods>
+  				<exclude name="colorsKannada" />
+  			</methods>
+  		</class>
+  	</classes>
+  </test>
+  <test name="RadhaKrishna">
+  <classes>
+  	<class name="Test.demo5"/>
+  </classes>
+  </test>
+   <test name="Krishna">
+  <classes>
+  	<class name="Test.demo6">
+  	<methods>
+  		<exclude name="krishna.*"/>
+  	</methods>
+  	</class>
+  </classes>
+  </test>
+  
+</suite>

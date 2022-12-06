@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="16" passed="12" failed="3" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-10-23T19:55:00 IST" name="Suite" finished-at="2022-10-23T19:55:00 IST" duration-ms="204">
+    <groups>
+      <group name="Smoke">
+        <method signature="demo6.krishnaSathyabhama()[pri:0, instance:Test.demo6@7a419da4]" name="krishnaSathyabhama" class="Test.demo6"/>
+        <method signature="demo1.d1()[pri:0, instance:Test.demo1@6bedbc4d]" name="d1" class="Test.demo1"/>
+        <method signature="demo2.dm2()[pri:0, instance:Test.demo2@793be5ca]" name="dm2" class="Test.demo2"/>
+        <method signature="demo3.home()[pri:0, instance:Test.demo3@10feca44]" name="home" class="Test.demo3"/>
+        <method signature="demo5.radha()[pri:0, instance:Test.demo5@2b48a640]" name="radha" class="Test.demo5"/>
+        <method signature="demo6.krishnaRukmini()[pri:0, instance:Test.demo6@7a419da4]" name="krishnaRukmini" class="Test.demo6"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2022-10-23T19:55:00 IST" name="Testng.Demo2.Demo2" finished-at="2022-10-23T19:55:00 IST" duration-ms="204">
+      <class name="Test.demo1">
+        <test-method signature="d1()[pri:0, instance:Test.demo1@6bedbc4d]" started-at="2022-10-23T19:55:00 IST" name="d1" finished-at="2022-10-23T19:55:00 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- d1 -->
+        <test-method signature="d2(java.lang.String)[pri:0, instance:Test.demo1@6bedbc4d]" started-at="2022-10-23T19:55:00 IST" name="d2" finished-at="2022-10-23T19:55:00 IST" duration-ms="0" status="FAIL">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'URL' is required by @Test on method d2 but has not been marked @Optional or defined
+in C:\Users\savitc\eclipse-workspace\TestngProject\testngpackage.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'URL' is required by @Test on method d2 but has not been marked @Optional or defined
+in C:\Users\savitc\eclipse-workspace\TestngProject\testngpackage.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:270)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:358)
+at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:884)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:740)
+at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:59)
+at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:38)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:791)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- d2 -->
+        <test-method is-config="true" signature="af()[pri:0, instance:Test.demo1@6bedbc4d]" started-at="2022-10-23T19:55:00 IST" name="af" finished-at="2022-10-23T19:55:00 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- af -->
+      </class> <!-- Test.demo1 -->
+      <class name="Test.demo2">
+        <test-method is-config="true" signature="bf()[pri:0, instance:Test.demo2@793be5ca]" started-at="2022-10-23T19:55:00 IST" name="bf" finished-at="2022-10-23T19:55:00 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bf -->
+        <test-method signature="dm2()[pri:0, instance:Test.demo2@793be5ca]" started-at="2022-10-23T19:55:00 IST" name="dm2" finished-at="2022-10-23T19:55:00 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dm2 -->
+        <test-method signature="dm3()[pri:0, instance:Test.demo2@793be5ca]" started-at="2022-10-23T19:55:00 IST" name="dm3" finished-at="2022-10-23T19:55:00 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dm3 -->
+      </class> <!-- Test.demo2 -->
+      <class name="Test.demo5">
+        <test-method is-config="true" signature="radhaKrishna()[pri:0, instance:Test.demo5@2b48a640]" started-at="2022-10-23T19:55:00 IST" name="radhaKrishna" finished-at="2022-10-23T19:55:00 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- radhaKrishna -->
+        <test-method signature="radha()[pri:0, instance:Test.demo5@2b48a640]" started-at="2022-10-23T19:55:00 IST" name="radha" finished-at="2022-10-23T19:55:00 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- radha -->
+        <test-method is-config="true" signature="af()[pri:0, instance:Test.demo5@2b48a640]" started-at="2022-10-23T19:55:00 IST" name="af" finished-at="2022-10-23T19:55:00 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- af -->
+        <test-method is-config="true" signature="afsuite()[pri:0, instance:Test.demo5@2b48a640]" started-at="2022-10-23T19:55:00 IST" name="afsuite" finished-at="2022-10-23T19:55:00 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afsuite -->
+      </class> <!-- Test.demo5 -->
+      <class name="Test.demo6">
+        <test-method is-config="true" signature="Bfmethod()[pri:0, instance:Test.demo6@7a419da4]" started-at="2022-10-23T19:55:00 IST" name="Bfmethod" finished-at="2022-10-23T19:55:00 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Bfmethod -->
+        <test-method signature="krishnaSathyabhama()[pri:0, instance:Test.demo6@7a419da4]" started-at="2022-10-23T19:55:00 IST" name="krishnaSathyabhama" finished-at="2022-10-23T19:55:00 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- krishnaSathyabhama -->
+        <test-method is-config="true" signature="Afmethod()[pri:0, instance:Test.demo6@7a419da4]" started-at="2022-10-23T19:55:00 IST" name="Afmethod" finished-at="2022-10-23T19:55:00 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Afmethod -->
+        <test-method is-config="true" signature="Bfmethod()[pri:0, instance:Test.demo6@7a419da4]" started-at="2022-10-23T19:55:00 IST" name="Bfmethod" finished-at="2022-10-23T19:55:00 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Bfmethod -->
+        <test-method signature="welcome()[pri:0, instance:Test.demo6@7a419da4]" started-at="2022-10-23T19:55:00 IST" name="welcome" finished-at="2022-10-23T19:55:00 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- welcome -->
+        <test-method is-config="true" signature="Afmethod()[pri:0, instance:Test.demo6@7a419da4]" started-at="2022-10-23T19:55:00 IST" name="Afmethod" finished-at="2022-10-23T19:55:00 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Afmethod -->
+        <test-method is-config="true" signature="Bfmethod()[pri:0, instance:Test.demo6@7a419da4]" started-at="2022-10-23T19:55:00 IST" name="Bfmethod" finished-at="2022-10-23T19:55:00 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Bfmethod -->
+        <test-method signature="krishnaRukmini()[pri:0, instance:Test.demo6@7a419da4]" started-at="2022-10-23T19:55:00 IST" name="krishnaRukmini" finished-at="2022-10-23T19:55:00 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- krishnaRukmini -->
+        <test-method is-config="true" signature="Afmethod()[pri:0, instance:Test.demo6@7a419da4]" started-at="2022-10-23T19:55:00 IST" name="Afmethod" finished-at="2022-10-23T19:55:00 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Afmethod -->
+        <test-method is-config="true" signature="Bfmethod()[pri:0, instance:Test.demo6@7a419da4]" started-at="2022-10-23T19:55:00 IST" name="Bfmethod" finished-at="2022-10-23T19:55:00 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Bfmethod -->
+        <test-method signature="SrinivaPadhmavathi()[pri:0, instance:Test.demo6@7a419da4]" started-at="2022-10-23T19:55:00 IST" name="SrinivaPadhmavathi" finished-at="2022-10-23T19:55:00 IST" depends-on-methods="Test.demo6.welcome" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SrinivaPadhmavathi -->
+        <test-method is-config="true" signature="Afmethod()[pri:0, instance:Test.demo6@7a419da4]" started-at="2022-10-23T19:55:00 IST" name="Afmethod" finished-at="2022-10-23T19:55:00 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Afmethod -->
+      </class> <!-- Test.demo6 -->
+      <class name="Test.demo3">
+        <test-method is-config="true" signature="bfsuite()[pri:0, instance:Test.demo3@10feca44]" started-at="2022-10-23T19:55:00 IST" name="bfsuite" finished-at="2022-10-23T19:55:00 IST" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bfsuite -->
+        <test-method is-config="true" signature="loans()[pri:0, instance:Test.demo3@10feca44]" started-at="2022-10-23T19:55:00 IST" name="loans" finished-at="2022-10-23T19:55:00 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loans -->
+        <test-method signature="car(java.lang.String)[pri:0, instance:Test.demo3@10feca44]" started-at="2022-10-23T19:55:00 IST" name="car" finished-at="2022-10-23T19:55:00 IST" duration-ms="0" status="FAIL">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'URLname' is required by @Test on method car but has not been marked @Optional or defined
+in C:\Users\savitc\eclipse-workspace\TestngProject\testngpackage.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'URLname' is required by @Test on method car but has not been marked @Optional or defined
+in C:\Users\savitc\eclipse-workspace\TestngProject\testngpackage.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:270)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:358)
+at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:884)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:740)
+at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:59)
+at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:38)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:791)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- car -->
+        <test-method signature="credit(java.lang.String)[pri:0, instance:Test.demo3@10feca44]" started-at="2022-10-23T19:55:00 IST" name="credit" finished-at="2022-10-23T19:55:00 IST" duration-ms="0" status="FAIL">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'URL' is required by @Test on method credit but has not been marked @Optional or defined
+in C:\Users\savitc\eclipse-workspace\TestngProject\testngpackage.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'URL' is required by @Test on method credit but has not been marked @Optional or defined
+in C:\Users\savitc\eclipse-workspace\TestngProject\testngpackage.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:270)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:358)
+at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:884)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:740)
+at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:59)
+at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:38)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:791)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- credit -->
+        <test-method signature="home()[pri:0, instance:Test.demo3@10feca44]" started-at="2022-10-23T19:55:00 IST" name="home" finished-at="2022-10-23T19:55:00 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- home -->
+      </class> <!-- Test.demo3 -->
+      <class name="Test.demo4">
+        <test-method signature="colorsKannada()[pri:0, instance:Test.demo4@4d02f94e]" started-at="2022-10-23T19:55:00 IST" name="colorsKannada" finished-at="2022-10-23T19:55:00 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- colorsKannada -->
+        <test-method signature="starSuvarna()[pri:0, instance:Test.demo4@4d02f94e]" started-at="2022-10-23T19:55:00 IST" name="starSuvarna" finished-at="2022-10-23T19:55:00 IST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- starSuvarna -->
+        <test-method signature="udaya()[pri:0, instance:Test.demo4@4d02f94e]" started-at="2022-10-23T19:55:00 IST" name="udaya" finished-at="2022-10-23T19:55:00 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- udaya -->
+      </class> <!-- Test.demo4 -->
+    </test> <!-- Testng.Demo2.Demo2 -->
+  </suite> <!-- Suite -->
+</testng-results>

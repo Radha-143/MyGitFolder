@@ -11,6 +11,9 @@ public class demo1 {
 	public void d1()
 	{
 		System.out.println("Hello");
+		System.out.println("Bangalore");
+		System.out.println("Karnataka");
+		System.out.println("India");
 	}
 	@Parameters ({"URL"})
 	@Test

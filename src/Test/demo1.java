@@ -1,5 +1,6 @@
 package Test;
 import org.testng.annotations.Test;
+import org.testng.annotations.AfterSuite;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.Parameters;
 
@@ -22,5 +23,10 @@ public class demo1 {
 	public void af()
 	{
 		System.out.println("After test execution for Demo modules");
+	}
+	@AfterSuite
+	public void afs()
+	{
+		System.out.println("Git X update");
 	}
 }

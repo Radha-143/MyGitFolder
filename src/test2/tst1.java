@@ -36,6 +36,10 @@ public class tst1 {
 	{
 		System.out.println("Smoke Test for Test2.tst1 class");
 	}
-
+	@TestBefore
+	public void tsbf()
+	{
+		System.out.println("Today test git demo");
+	}
 
 }

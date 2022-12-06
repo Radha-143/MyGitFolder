@@ -18,6 +18,12 @@ public class tst2 {
 	{
 		System.out.println("After Suite folder");
 	}
+	@AfterMethod
+	public void method()
+	{
+		System.out.println("Git demo");
+		System.out.println("Hi X");
+	}
 	@Parameters({"GURL"})
 	@Test
 	public void mtd1(String gname)
